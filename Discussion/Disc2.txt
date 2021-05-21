@@ -1,0 +1,116 @@
+-navigate through folders and files in the terminal
+
+pwd  
+ls
+cd XXXX
+cd ..
+whoami
+cd ~
+cd -
+cd ~/Desktop
+
+
+
+-set up a project folder
+
+mkdir dir
+mkdir dir1 dir2 dir3
+mkdir -p dir4/dir5/dir6
+rmdir dir1 dir2 dir3
+rm -r dir4
+vim demo.txt
+cat demo.txt
+clear
+
+
+
+-install node
+do a demo
+download from node.js website
+https://brew.sh/ # for mac
+brew install node # for mac
+node -v
+npm -v
+npm init
+npm install <package-name>
+
+
+
+-install vscode
+download vscode and install
+https://code.visualstudio.com/ 
+
+
+
+-install hot-server and help them launch hot-server so that it works the way I have it working in my html demo
+https://www.npmjs.com/package/hot-server
+npm install -g hot-server
+hot-server index.html
+
+index.html
+---------------
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+-----------------
+
+mystyle.css
+------------
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+-------------
+
+
+Internal CSS
+-------------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+-----------------
+
+
+Inline CSS
+-------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+-------------
